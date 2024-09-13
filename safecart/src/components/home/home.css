@@ -1,0 +1,193 @@
+
+
+/* banner1 */
+#banner1{
+    /* background-color: palevioletred; */
+    margin: 20px 15px;
+    padding: 20px 0px;
+}
+
+#banner1-cards{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+#banner1 #banner1-cards{
+    margin-left: 45px;
+}
+
+
+/* banner1-card1 */
+#banner1 #banner1-cards #banner1-card1{
+    background-color: #62CDFF;
+    height: 245px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner1 #banner1-cards #banner1-card1 .card1-left{
+    padding: 20px;
+}
+
+#banner1 #banner1-cards #banner1-card1 .card1-left p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#banner1 #banner1-cards #banner1-card1 .card1-left h3{
+    font-weight: 600;
+}
+
+#banner1 #banner1-cards #banner1-card1 .card1-left .btn{
+    background-color: #F4F300;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+#banner1 #banner1-cards #banner1-card1 .card1-left .btn:hover{
+    background-color: #006045;
+    color: white;
+}
+
+
+#banner1 #banner1-cards #banner1-card1 .card1-right{
+    padding: 10px;
+}
+
+#banner1 #banner1-cards #banner1-card1 .card1-right img{
+    width: 120px;
+}
+
+
+
+
+
+
+
+/* banner1-card2 */
+#banner1 #banner1-cards #banner1-card2{
+    background-color: #F4F300;
+    height: 245px;
+    border-radius: 5px;
+}
+
+#banner1 #banner1-cards #banner1-card2 .card2-left{
+    padding: 20px;
+    text-align: center;
+}
+
+#banner1 #banner1-cards #banner1-card2 .card2-left p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#banner1 #banner1-cards #banner1-card2 .card2-left h3{
+    font-weight: 600;
+}
+
+#banner1 #banner1-cards #banner1-card2 .card2-right{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner1 #banner1-cards #banner1-card2 .card2-right img{
+    width: 160px;
+    
+
+}
+
+
+
+
+
+/* banner1-card3 */
+#banner1 #banner1-card3{
+    background-color: #62CDFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner1 #banner1-card3 .card3-left{
+    padding: 20px;
+}
+
+#banner1 #banner1-card3 .card3-left p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#banner1 #banner1-card3 .card3-left h2{
+    font-weight: 600;
+}
+
+#banner1 #banner1-card3 .card3-left .btn{
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#banner1 #banner1-card3 .card3-left .btn:hover{
+    background-color: #006045;
+}
+
+
+#banner1 #banner1-card3 .card3-right{
+    padding: 10px;
+}
+
+#banner1 #banner1-card3 .card3-right img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* home-products */
+
+#home-container .home-products h4{
+    margin-left: 70px;
+}
+
+#home-container .home-products .home-categories{
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+#home-container .home-products .home-categories .category img{
+    width: 90px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+}
+
+#home-container .home-products .home-categories .category p{
+    font-size: 13.5px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+

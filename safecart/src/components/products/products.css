@@ -1,0 +1,138 @@
+/* View products */
+
+.main-post-products{
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+.main-post-products .myProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.productCards .card{
+    width: 185px;  
+    border-radius: 0%;
+    /* border: 1px solid rgb(174, 173, 173); */
+    border: none;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productCards .card:hover{
+    transform: scale(1.04);
+}
+
+
+
+/* card-body */
+.productCards .card .card-body{
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #F7F7F7; 
+}
+
+.productCards .card .card-body img{
+    background-size: cover;
+    width: 100%;
+}
+
+.main-post-products .heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* card-footer */
+.productCards .card .card-footer{
+    background-color: white;
+}
+
+.productCards .card .card-footer .add-btn{
+    border-color: #006045;
+    color: #006045;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.productCards .card .card-footer .add-btn:hover{
+    background-color: #006045;
+    color: white;
+}
+
+.productCards .card .card-footer .prod-name{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.productCards .card .card-footer .prod-prices{
+    display: flex;
+}
+
+.productCards .card .card-footer .off-price{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.productCards .card .card-footer .mrp-price{
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #999999;
+}
+
+
+
+.productCards .card .card-footer .quantity{
+    border: 1px solid rgb(188, 187, 187);
+    padding: 10px ;
+}
+
+.productCards .card .card-footer .quantity span{
+    padding: 10px;
+}
+
+
+.productCards .card .card-footer .comp-wish-btn-div{
+    display: flex;
+    align-items: center;
+}
+
+.productCards .card .card-footer .comp-wish-btn-div .comp-wish-btn{
+    color: #006045;
+    background-color: white;
+    font-size: 11px;
+    border: 1px solid #006045;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+.productCards .card .card-footer .comp-wish-btn-div .comp-wish-btn:hover{
+    color: white;
+    background-color: #006045;
+}
+
+
+
+
+
+
+
+
+
+
+

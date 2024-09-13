@@ -1,0 +1,141 @@
+/* seller products */
+
+#seller-products-container .main-post-products{
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+#seller-products-container .main-post-products .myProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.sellerProductsCards .card{
+    width: 185px;  
+    border-radius: 0%;
+    /* border: 1px solid rgb(174, 173, 173); */
+    border: none;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sellerProductsCards .card:hover{
+    transform: scale(1.04);
+}
+
+
+
+/* card-body */
+.sellerProductsCards .card .card-body{
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #F7F7F7; 
+}
+
+.sellerProductsCards .card .card-body img{
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* card-footer */
+.sellerProductsCards .card .card-footer{
+    background-color: white;
+}
+
+.sellerProductsCards .card .card-footer .add-btn{
+    border-color: #006045;
+    color: #006045;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sellerProductsCards .card .card-footer .add-btn:hover{
+    background-color: #006045;
+    color: white;
+}
+
+.sellerProductsCards .card .card-footer .prod-name{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.sellerProductsCards .card .card-footer .prod-prices{
+    display: flex;
+}
+
+.sellerProductsCards .card .card-footer .off-price{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sellerProductsCards .card .card-footer .mrp-price{
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #999999;
+}
+
+
+
+/* seller product btns */
+
+.sellerProductsCards .card .card-footer .seller-prod-btns{
+    display: flex;
+    align-items: center;
+}
+
+
+.sellerProductsCards .card .card-footer .seller-prod-btns .prod-update-icon{
+    border-color: #006045;
+    color: #006045;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sellerProductsCards .card .card-footer .seller-prod-btns .prod-update-icon:hover{
+    background-color: #006045;
+    color: white;
+}
+
+
+.sellerProductsCards .card .card-footer .seller-prod-btns .prod-del-icon{
+    color: #006045;
+    background-color: white;
+    font-size: 13px;
+    border: 1px solid #006045;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+.sellerProductsCards .card .card-footer .seller-prod-btns .prod-del-icon:hover{
+    color: white;
+    background-color: #006045;
+}
+
+
+
+
+
+
+
+

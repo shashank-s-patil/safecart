@@ -1,0 +1,154 @@
+.heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* checkout-left */
+#checkout-container #checkout-left{
+    /* background-color: aquamarine; */
+    padding: 20px 20px;
+}
+
+#checkout-container{
+    /* min-width: 1060px; */
+    margin-bottom: 40px;
+}
+
+#checkout-container #checkout-left .ship-add-btn{
+    margin-bottom: 30px;
+    background-color: #006045;
+    border-radius: 4px;
+    padding: 3px 6px;
+}
+
+#checkout-container #checkout-left h5{
+    font-weight: 600;
+}
+
+#checkout-container #checkout-left label{
+    font-size: 14px;
+}
+
+#checkout-container #checkout-left label{
+    font-size: 14px;
+}
+
+#checkout-container #checkout-left input{
+    font-size: 14px;
+}
+
+
+#checkout-container #checkout-left .btn{
+    background-color: #006045;
+    color: white;
+    border-radius: 0%;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#checkout-container #checkout-left form .two-fields-div{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* checkout-right */
+#checkout-container #checkout-right{
+    background-color: #F7F7F7;
+    padding: 20px 20px;
+}
+
+#checkout-container #checkout-right h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+#checkout-container #checkout-right .payment-method h6{
+    font-weight: 600;
+    text-align: center;
+}
+
+
+#checkout-container #checkout-right .payment-method label{
+    font-size: 14px;
+}
+
+#checkout-container #checkout-right .payment-method img{
+    width: 100%;
+}
+
+
+#checkout-container #checkout-right .ApplyCoupon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#checkout-container #checkout-right .ApplyCoupon input{
+    border-radius: 0%;
+    width: 50%;
+}
+
+#checkout-container #checkout-right .btn-coupon{
+    background-color: #006045;
+    color: white;
+    border-radius: 0%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+#checkout-container #checkout-right .btn-coupon:hover{
+    color: #006045;
+    border: 1.5px solid #006045;
+    background-color: white;
+}
+
+#checkout-container #checkout-right .checkbox label{
+    font-size: 14px;
+}
+
+
+#checkout-container #checkout-right .btn-submit{
+    background-color: #006045;
+    color: white;
+    border-radius: 0%;
+    padding: 10px 40px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#checkout-container #checkout-right .btn-submit:hover{
+    color: #006045;
+    border: 1.5px solid #006045;
+    background-color: white;
+}
+
+#checkout-container #checkout-right .btn-cancel{
+    border: 1.5px solid #DDDDDD;
+    border-radius: 0%;
+    padding: 10px 40px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#checkout-container #checkout-right .btn-cancel:hover{
+    background-color: #DDDDDD;
+}
+
+
+

@@ -1,0 +1,77 @@
+#blog-container .blog-Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+
+#blog-container .blog-Cards .card{
+    width: 280px;  
+    border-radius: 0%;
+    /* border: 1px solid rgb(174, 173, 173); */
+    border: none;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#blog-container .blog-Cards .card:hover{
+    transform: scale(1.04);
+}
+
+
+
+/* card-body */
+#blog-container .blog-Cards .card .card-body{
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #F7F7F7; 
+}
+
+#blog-container .blog-Cards .card .card-body img{
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+/* card-footer */
+#blog-container .blog-Cards .card .card-footer{
+    background-color: white;
+}
+
+#blog-container .blog-Cards .card .card-footer .read-btn{
+    border-color: #006045;
+    color: #006045;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#blog-container .productCards .card .card-footer .read-btn:hover{
+    background-color: #006045;
+    color: white;
+}
+
+
+
+#blog-container .blog-date{
+    font-size: 13px;
+}
+
+#blog-container .blog-info{
+    font-size: 14px;
+}
+
+
+
+

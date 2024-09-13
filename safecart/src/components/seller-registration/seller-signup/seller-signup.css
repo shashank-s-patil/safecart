@@ -1,0 +1,124 @@
+.seller-signup{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form{
+    padding: 30px; 
+    width: 580px;
+    /* border: 1px solid black; */
+    /* border-radius: 8px; */
+    background-color: #F7F7F7;
+    /* box-shadow: 5px 5px #f3d290; */
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .form-twofieldsdivs{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 10px; */
+}
+
+.seller-signup .seller-signup-container .seller-signup-form h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .btn{
+    background-color: #006045;
+    color: white;
+    width: 80%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0%;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .seller-signup-terms{
+    font-size: 14px;
+    color: gray;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .seller-signup-terms a{
+    color: #20C1C6;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .seller-signup-terms a:hover{
+    text-decoration: none;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .seller-signup-terms2{
+    font-size: 12px;
+    color: gray;
+}
+
+
+
+
+
+.seller-signup .seller-signup-container .seller-signup-form .redirect{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .red-seller-signup{
+    color: #F1641E;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .red-seller-signup:hover{
+    text-decoration: none;
+    color: #20C1C6;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .forgot-pass{
+    color: #20C1C6;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .forgot-pass:hover{
+    text-decoration: none;
+}
+
+
+.seller-signup .seller-signup-container .seller-signup-form .poweredby-logo{
+    width: 200px;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .poweredby-logo img{
+    width: 100%;
+}
+
+
+
+
+.seller-signup .seller-signup-container .seller-signup-form .checkbox{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(207, 206, 206);
+    align-items: center;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .checkbox .captcha{
+    width: 70px;
+    padding-bottom: 10px;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .checkbox img{
+    width: 100%;
+
+}
+
+.seller-signup .seller-signup-container .seller-signup-form input[type=checkbox] {
+    zoom: 1.5;
+}
+
+.seller-signup .seller-signup-container .seller-signup-form .NotRobot{
+    zoom: 1.1;
+    margin-left: 10px;
+}
+
+
+
+
+

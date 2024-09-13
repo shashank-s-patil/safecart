@@ -1,0 +1,30 @@
+.shipping-add-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-bottom: 80px;
+}
+
+.shipping-add-div .btn{
+    background-color: #006040;
+    color: white;
+    border-radius: 0%;
+    padding: 10px 15px;
+}
+
+.shipping-add-div .btn:hover{
+    color: #006040;
+    background-color: white;
+    border: 1.5px solid #006040;
+}
+
+
+
+
+
+
+
+
+
+

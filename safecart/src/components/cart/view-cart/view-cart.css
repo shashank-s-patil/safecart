@@ -1,0 +1,32 @@
+.cart-no-prod-div{
+    margin-bottom: 100px;
+}
+
+.cart-no-prod-div .no-prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#cart-container .btn-checkout{
+    background-color: #019a6e;
+    color: white;
+    border-radius: 0%;
+    padding: 8px 40px;
+}
+
+#cart-container .btn-checkout:hover{
+    background-color: #006045;
+}
+
+
+
+
+
+
+
+
+
+
+

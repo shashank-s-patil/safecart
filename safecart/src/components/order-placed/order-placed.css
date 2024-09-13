@@ -1,0 +1,26 @@
+#order-placed-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#order-placed-container .order-placed-div{
+    text-align: center;
+}
+
+#order-placed-container .order-placed-div img{
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.wish-no-prod-div{
+    margin-bottom: 100px;
+}
+
+.wish-no-prod-div .no-prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Quantity-btn */
+
+#wish-container .wish-qty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wish-container .Quantity-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(208, 206, 206);
+}
+
+
+#wish-container .Quantity-btn input{
+    border: none;
+    border-radius: 0%;
+    text-align: center;
+}
+
+#wish-container .Quantity-btn .btn:hover{
+    background-color: rgb(241, 238, 238);
+}
+
+
+
+
+
+

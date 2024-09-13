@@ -1,0 +1,42 @@
+#track-order-container{
+    margin-bottom: 30px;
+}
+
+#track-order-container .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#track-order-container #div1-left{
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#track-order-container #div1-left label{
+    font-size: 13px;
+}
+
+#track-order-container #div1-left .btn{
+    background-color: #006040;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#track-order-container #div1-left .btn:hover{
+    border: 1.5px solid #006040;
+    background-color: white;
+    color: #006040;
+}
+
+#track-order-container #div1-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#track-order-container #div1-right img{
+    width: 350px;
+}

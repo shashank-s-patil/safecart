@@ -1,0 +1,92 @@
+.seller-login{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.seller-login .seller-login-container .seller-login-form{
+    padding: 30px; 
+    width: 450px;
+    /* border: 1px solid black; */
+    /* border-radius: 8px; */
+    background-color: #F7F7F7;
+    /* box-shadow: 5px 5px #f3d290; */
+}
+
+.seller-login .seller-login-container .seller-login-form h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seller-login .seller-login-container .seller-login-form .btn{
+    background-color: #006045;
+    color: white;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0%;
+}
+
+.seller-login .seller-login-container .seller-login-form .login-terms{
+    font-size: 12px;
+    color: gray;
+}
+
+.seller-login .seller-login-container .seller-login-form .redirect{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.seller-login .seller-login-container .seller-login-form .red-signup{
+    color: #F1641E;
+}
+
+.seller-login .seller-login-container .seller-login-form .red-signup:hover{
+    text-decoration: none;
+    color: #20C1C6;
+}
+
+.seller-login .seller-login-container .seller-login-form .forgot-pass{
+    color: #20C1C6;
+}
+
+.seller-login .seller-login-container .seller-login-form .forgot-pass:hover{
+    text-decoration: none;
+}
+
+
+.seller-login .seller-login-container .seller-login-form .poweredby-logo{
+    width: 200px;
+}
+
+.seller-login .seller-login-container .seller-login-form .poweredby-logo img{
+    width: 100%;
+}
+
+
+
+
+.seller-login .seller-login-container .seller-login-form .checkbox{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(207, 206, 206);
+    align-items: center;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.seller-login .seller-login-container .seller-login-form input[type=checkbox] {
+    zoom: 1.5;
+}
+
+.seller-login .seller-login-container .seller-login-form .StaySignedIn{
+    zoom: 1.1;
+    margin-left: 10px;
+}
+
+
+
+
+
