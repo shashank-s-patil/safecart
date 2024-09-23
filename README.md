@@ -1,4 +1,4 @@
-#Safecart – Fullstack Ecommerce Application
+# Safecart – Fullstack Ecommerce Application
 (Tech stacks – HTML, CSS, JavaScript, Bootstrap, React JS, Node JS, Express JS, MySQL, VS Code Editor)
 
 • Safecart is a modern and flexible Multipurpose Marketplace. With the theme, you can create your own marketplace and allow vendors to sell just like Amazon, Envato & eBay.
